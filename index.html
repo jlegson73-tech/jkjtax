@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JKJ Tax &amp; Business Services helps individuals and small businesses with tax preparation, bookkeeping, and consulting.">
+  <title>JKJ Tax &amp; Business Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#142033",
+            pine: "#1c4536",
+            moss: "#2f6b52",
+            brass: "#7a5c26",
+            gilt: "#e2c27a",
+            cream: "#f4f0e8",
+            paper: "#fbf8f3",
+            line: "#e4ddd1"
+          },
+          fontFamily: {
+            serif: ["Fraunces", "Georgia", "serif"],
+            sans: ["Outfit", "system-ui", "sans-serif"]
+          },
+          boxShadow: {
+            card: "0 18px 50px -28px rgba(20, 32, 51, 0.45)"
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    .ledger {
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 27px,
+        rgba(20, 32, 51, 0.06) 28px
+      );
+    }
+  </style>
+</head>
+<body class="bg-cream font-sans text-ink antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-paper focus:px-4 focus:py-2 focus:shadow">Skip to content</a>
+
+  <header class="sticky top-0 z-40 border-b border-line/80 bg-cream/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
+      <a href="#top" class="flex items-center gap-3">
+        <span class="grid h-10 w-10 place-items-center rounded-full bg-pine text-sm font-semibold tracking-wide text-cream">JKJ</span>
+        <span class="leading-tight">
+          <span class="block text-sm font-semibold tracking-wide">JKJ Tax</span>
+          <span class="block text-xs text-ink/60">Business Services</span>
+        </span>
+      </a>
+
+      <nav class="hidden items-center gap-8 text-sm font-medium md:flex" aria-label="Primary">
+        <a href="#services" class="hover:text-pine">Services</a>
+        <a href="#about" class="hover:text-pine">About</a>
+        <a href="#contact" class="hover:text-pine">Contact</a>
+        <a href="#contact" class="rounded-full bg-pine px-4 py-2 text-cream hover:bg-moss">Get in touch</a>
+      </nav>
+
+      <button id="menu-toggle" type="button" class="inline-flex items-center justify-center rounded-md border border-line px-3 py-2 text-sm md:hidden" aria-expanded="false" aria-controls="mobile-menu">
+        Menu
+      </button>
+    </div>
+    <nav id="mobile-menu" class="hidden border-t border-line px-5 py-4 md:hidden" aria-label="Mobile">
+      <div class="flex flex-col gap-3 text-sm font-medium">
+        <a href="#services" class="menu-link">Services</a>
+        <a href="#about" class="menu-link">About</a>
+        <a href="#contact" class="menu-link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="relative overflow-hidden">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[1.15fr_0.85fr] lg:py-28">
+        <div>
+          <p class="mb-5 text-xs font-semibold uppercase tracking-[0.22em] text-brass">Tax · Books · Advice</p>
+          <h1 class="font-serif text-4xl leading-[1.12] text-ink sm:text-5xl lg:text-6xl">
+            Taxes and books, handled with care.
+          </h1>
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-ink/75">
+            JKJ Tax &amp; Business Services helps individuals and small businesses prepare returns, keep clean records, and make the next decision with numbers they can actually read.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#contact" class="rounded-full bg-pine px-6 py-3 text-sm font-semibold text-cream hover:bg-moss">Start a conversation</a>
+            <a href="#services" class="rounded-full border border-ink/15 bg-paper px-6 py-3 text-sm font-semibold hover:border-pine hover:text-pine">See services</a>
+          </div>
+        </div>
+
+        <aside class="rounded-3xl bg-ink p-7 text-cream shadow-card sm:p-9" aria-label="How an engagement starts">
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-gilt">A typical start</p>
+          <ol class="mt-6 space-y-5">
+            <li class="flex gap-4">
+              <span class="font-serif text-2xl text-gilt">01</span>
+              <span>
+                <span class="block font-medium">Tell us where things stand</span>
+                <span class="mt-1 block text-sm text-cream/70">Returns, books, or a question you have been putting off.</span>
+              </span>
+            </li>
+            <li class="flex gap-4">
+              <span class="font-serif text-2xl text-gilt">02</span>
+              <span>
+                <span class="block font-medium">We sort the paperwork</span>
+                <span class="mt-1 block text-sm text-cream/70">A clear list of what we need, and what can wait.</span>
+              </span>
+            </li>
+            <li class="flex gap-4">
+              <span class="font-serif text-2xl text-gilt">03</span>
+              <span>
+                <span class="block font-medium">You leave with a plan</span>
+                <span class="mt-1 block text-sm text-cream/70">Filed work, current books, or advice you can act on.</span>
+              </span>
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="scroll-mt-20 border-t border-line bg-paper">
+      <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
+        <div class="max-w-2xl">
+          <p class="text-xs font-semibold uppercase tracking-[0.22em] text-brass">Services</p>
+          <h2 class="mt-3 font-serif text-3xl sm:text-4xl">Three ways we can help</h2>
+          <p class="mt-4 text-ink/70">Pick one, or combine them. Most clients start with a single season and stay because the records stay useful after filing day.</p>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-3">
+          <article class="flex flex-col rounded-3xl border border-line bg-cream p-7">
+            <span class="font-serif text-sm text-brass">01</span>
+            <h3 class="mt-4 font-serif text-2xl">Tax Preparation</h3>
+            <p class="mt-3 flex-1 text-sm leading-relaxed text-ink/75">Individual and small-business returns prepared carefully, with time to walk through what changed and why the numbers look the way they do.</p>
+            <ul class="mt-6 space-y-2 text-sm text-ink/80">
+              <li>Personal returns</li>
+              <li>Small-business filings</li>
+              <li>Organized document checklists</li>
+            </ul>
+          </article>
+
+          <article class="flex flex-col rounded-3xl border border-line bg-cream p-7">
+            <span class="font-serif text-sm text-brass">02</span>
+            <h3 class="mt-4 font-serif text-2xl">Bookkeeping</h3>
+            <p class="mt-3 flex-1 text-sm leading-relaxed text-ink/75">Monthly books that stay current, so you are not reconstructing a year of receipts the week a return is due.</p>
+            <ul class="mt-6 space-y-2 text-sm text-ink/80">
+              <li>Monthly categorization</li>
+              <li>Reconciled accounts</li>
+              <li>Reports you can read</li>
+            </ul>
+          </article>
+
+          <article class="flex flex-col rounded-3xl border border-line bg-cream p-7">
+            <span class="font-serif text-sm text-brass">03</span>
+            <h3 class="mt-4 font-serif text-2xl">Consulting</h3>
+            <p class="mt-3 flex-1 text-sm leading-relaxed text-ink/75">Practical conversations about cash flow, pricing, and the questions that show up between filing seasons.</p>
+            <ul class="mt-6 space-y-2 text-sm text-ink/80">
+              <li>Cash-flow check-ins</li>
+              <li>Entity and pricing questions</li>
+              <li>Planning before year-end</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="scroll-mt-20 border-t border-line">
+      <div class="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[0.8fr_1.2fr]">
+        <div class="ledger rounded-3xl bg-pine px-8 py-12 text-cream shadow-card">
+          <p class="font-serif text-6xl leading-none">DL</p>
+          <p class="mt-8 font-serif text-2xl leading-snug">“The goal is simple: numbers you can understand, and a plan you can act on.”</p>
+          <p class="mt-6 text-sm text-cream/75">Domingo Legson<br>Founder, JKJ Tax &amp; Business Services</p>
+        </div>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.22em] text-brass">About</p>
+          <h2 class="mt-3 font-serif text-3xl sm:text-4xl">Meet Domingo Legson</h2>
+          <div class="mt-6 space-y-4 text-base leading-relaxed text-ink/75">
+            <p>Domingo Legson founded JKJ Tax &amp; Business Services for people who want a straightforward place to get their finances in order. He works directly with clients, from first-time filers to owners who need books they can trust.</p>
+            <p>The practice is built around plain language. You should leave a meeting knowing what was filed, what the books say, and what deserves attention next — without a stack of jargon in the way.</p>
+            <p>Engagements are personal and sized to the work: a single return, ongoing bookkeeping, or a consulting conversation when a decision is coming up.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="scroll-mt-20 border-t border-line bg-paper">
+      <div class="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[0.85fr_1.15fr]">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.22em] text-brass">Contact</p>
+          <h2 class="mt-3 font-serif text-3xl sm:text-4xl">Tell us what you need</h2>
+          <p class="mt-4 text-ink/70">Share a few details and Domingo will follow up about timing and what to bring. This preview form stays in your browser until you connect it to an inbox.</p>
+          <dl class="mt-8 space-y-4 text-sm">
+            <div>
+              <dt class="font-semibold">Email</dt>
+              <dd class="text-ink/70"><a class="underline decoration-brass underline-offset-4 hover:text-pine" href="mailto:hello@jkjtax.com">hello@jkjtax.com</a></dd>
+            </div>
+            <div>
+              <dt class="font-semibold">Meetings</dt>
+              <dd class="text-ink/70">By appointment</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form id="contact-form" class="rounded-3xl border border-line bg-cream p-6 shadow-card sm:p-8" novalidate>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <div class="sm:col-span-1">
+              <label for="name" class="mb-1.5 block text-sm font-medium">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required class="w-full rounded-xl border border-line bg-paper px-4 py-3 text-sm outline-none ring-pine/30 focus:ring-2">
+            </div>
+            <div>
+              <label for="email" class="mb-1.5 block text-sm font-medium">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required class="w-full rounded-xl border border-line bg-paper px-4 py-3 text-sm outline-none ring-pine/30 focus:ring-2">
+            </div>
+            <div>
+              <label for="phone" class="mb-1.5 block text-sm font-medium">Phone <span class="font-normal text-ink/50">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" class="w-full rounded-xl border border-line bg-paper px-4 py-3 text-sm outline-none ring-pine/30 focus:ring-2">
+            </div>
+            <div>
+              <label for="service" class="mb-1.5 block text-sm font-medium">Service</label>
+              <select id="service" name="service" required class="w-full rounded-xl border border-line bg-paper px-4 py-3 text-sm outline-none ring-pine/30 focus:ring-2">
+                <option value="">Select one</option>
+                <option>Tax Preparation</option>
+                <option>Bookkeeping</option>
+                <option>Consulting</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="mb-1.5 block text-sm font-medium">How can we help?</label>
+              <textarea id="message" name="message" rows="5" required class="w-full resize-y rounded-xl border border-line bg-paper px-4 py-3 text-sm outline-none ring-pine/30 focus:ring-2"></textarea>
+            </div>
+          </div>
+          <p id="form-error" class="mt-4 hidden text-sm text-red-800" role="alert"></p>
+          <button type="submit" class="mt-6 rounded-full bg-pine px-6 py-3 text-sm font-semibold text-cream hover:bg-moss">Send message</button>
+          <p id="form-success" class="mt-4 hidden rounded-2xl bg-pine/10 px-4 py-3 text-sm text-pine" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink text-cream">
+    <div class="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-12 sm:px-8 md:flex-row md:items-start md:justify-between">
+      <div>
+        <p class="font-serif text-2xl">JKJ Tax &amp; Business Services</p>
+        <p class="mt-2 max-w-sm text-sm text-cream/70">Tax preparation, bookkeeping, and consulting for individuals and small businesses.</p>
+      </div>
+      <nav class="flex gap-6 text-sm" aria-label="Footer">
+        <a href="#services" class="text-cream/80 hover:text-cream">Services</a>
+        <a href="#about" class="text-cream/80 hover:text-cream">About</a>
+        <a href="#contact" class="text-cream/80 hover:text-cream">Contact</a>
+      </nav>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-5 text-xs text-cream/55 sm:px-8 sm:flex-row sm:justify-between">
+        <p>&copy; <span id="year">2026</span> JKJ Tax &amp; Business Services</p>
+        <p>General information only. Not tax, legal, or accounting advice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("mobile-menu");
+    toggle.addEventListener("click", () => {
+      const open = menu.classList.toggle("hidden") === false;
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.textContent = open ? "Close" : "Menu";
+    });
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        menu.classList.add("hidden");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.textContent = "Menu";
+      });
+    });
+
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+
+    const form = document.getElementById("contact-form");
+    const error = document.getElementById("form-error");
+    const success = document.getElementById("form-success");
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      error.classList.add("hidden");
+      success.classList.add("hidden");
+      if (!form.checkValidity()) {
+        error.textContent = "Please add your name, a valid email, a service, and a short message.";
+        error.classList.remove("hidden");
+        form.reportValidity();
+        return;
+      }
+      const name = document.getElementById("name").value.trim();
+      success.textContent = "Thanks, " + name + ". This preview stays in the browser and does not send email yet. Replace the submit handler when you connect an inbox.";
+      success.classList.remove("hidden");
+      form.reset();
+    });
+  </script>
+</body>
+</html>
