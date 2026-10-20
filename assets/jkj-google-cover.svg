@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="576" viewBox="0 0 1024 576" role="img" aria-label="JKJ Tax &amp; Business Services cover graphic">
+  <!-- Background: site cream (#f4f0e8) -->
+  <rect width="1024" height="576" fill="#f4f0e8"/>
+
+  <!-- Soft ring accents (very subtle) -->
+  <circle cx="270" cy="288" r="250" fill="none" stroke="#142033" stroke-opacity="0.06" stroke-width="2"/>
+  <circle cx="270" cy="288" r="190" fill="none" stroke="#142033" stroke-opacity="0.04" stroke-width="2"/>
+  <circle cx="930" cy="288" r="330" fill="none" stroke="#142033" stroke-opacity="0.04" stroke-width="2"/>
+
+  <!-- Document card (behind calculator) -->
+  <rect x="262" y="152" width="230" height="300" rx="16" fill="#142033" fill-opacity="0.07"/>
+  <rect x="250" y="140" width="230" height="300" rx="16" fill="#fbf9f4" stroke="#142033" stroke-width="2"/>
+  <rect x="318" y="172" width="96" height="10" rx="5" fill="#142033"/>
+  <rect x="318" y="196" width="130" height="6" rx="3" fill="#142033" fill-opacity="0.25"/>
+  <rect x="318" y="214" width="112" height="6" rx="3" fill="#142033" fill-opacity="0.25"/>
+  <rect x="318" y="232" width="124" height="6" rx="3" fill="#142033" fill-opacity="0.25"/>
+  <rect x="318" y="250" width="86" height="6" rx="3" fill="#142033" fill-opacity="0.25"/>
+  <!-- Approved check -->
+  <circle cx="448" cy="177" r="13" fill="#e2c27a"/>
+  <path d="M441.5 177.5 L446.5 182.5 L455 172.5" fill="none" stroke="#142033" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Mini bar chart -->
+  <line x1="318" y1="400" x2="452" y2="400" stroke="#142033" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+  <rect x="322" y="364" width="18" height="36" rx="3" fill="#142033" fill-opacity="0.35"/>
+  <rect x="348" y="346" width="18" height="54" rx="3" fill="#142033" fill-opacity="0.55"/>
+  <rect x="374" y="328" width="18" height="72" rx="3" fill="#142033" fill-opacity="0.8"/>
+  <rect x="400" y="304" width="18" height="96" rx="3" fill="#142033"/>
+  <rect x="426" y="284" width="18" height="116" rx="3" fill="#e2c27a"/>
+
+  <!-- Calculator -->
+  <rect x="92" y="120" width="210" height="360" rx="26" fill="#142033" fill-opacity="0.12"/>
+  <rect x="80" y="108" width="210" height="360" rx="26" fill="#142033"/>
+  <!-- Display -->
+  <rect x="100" y="124" width="170" height="80" rx="12" fill="#f4f0e8"/>
+  <line x1="116" y1="188" x2="254" y2="188" stroke="#142033" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round"/>
+  <rect x="120" y="164" width="14" height="24" rx="2" fill="#142033" fill-opacity="0.35"/>
+  <rect x="142" y="154" width="14" height="34" rx="2" fill="#142033" fill-opacity="0.55"/>
+  <rect x="164" y="144" width="14" height="44" rx="2" fill="#142033" fill-opacity="0.8"/>
+  <rect x="186" y="136" width="14" height="52" rx="2" fill="#142033"/>
+  <rect x="208" y="132" width="14" height="56" rx="2" fill="#e2c27a"/>
+  <!-- Keys: rows 1-3 -->
+  <g fill="#f4f0e8" fill-opacity="0.16">
+    <rect x="100"    y="224" width="37" height="36" rx="9"/>
+    <rect x="144.33" y="224" width="37" height="36" rx="9"/>
+    <rect x="188.67" y="224" width="37" height="36" rx="9"/>
+    <rect x="100"    y="268" width="37" height="36" rx="9"/>
+    <rect x="144.33" y="268" width="37" height="36" rx="9"/>
+    <rect x="188.67" y="268" width="37" height="36" rx="9"/>
+    <rect x="100"    y="312" width="37" height="36" rx="9"/>
+    <rect x="144.33" y="312" width="37" height="36" rx="9"/>
+    <rect x="188.67" y="312" width="37" height="36" rx="9"/>
+    <rect x="100"    y="356" width="37" height="36" rx="9"/>
+    <rect x="144.33" y="356" width="37" height="36" rx="9"/>
+    <rect x="188.67" y="356" width="37" height="36" rx="9"/>
+    <rect x="100"    y="400" width="81.33" height="36" rx="9"/>
+    <rect x="188.67" y="400" width="37" height="36" rx="9"/>
+  </g>
+  <!-- Operator column -->
+  <g fill="#f4f0e8" fill-opacity="0.3">
+    <rect x="233" y="224" width="37" height="36" rx="9"/>
+    <rect x="233" y="268" width="37" height="36" rx="9"/>
+    <rect x="233" y="312" width="37" height="36" rx="9"/>
+  </g>
+  <!-- Equals key -->
+  <rect x="233" y="356" width="37" height="80" rx="9" fill="#e2c27a"/>
+  <line x1="243" y1="388" x2="260" y2="388" stroke="#142033" stroke-width="3" stroke-linecap="round"/>
+  <line x1="243" y1="404" x2="260" y2="404" stroke="#142033" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Quiet accent on the right side -->
+  <circle cx="900" cy="140" r="5" fill="#e2c27a"/>
+  <circle cx="924" cy="140" r="5" fill="#142033" fill-opacity="0.2"/>
+  <circle cx="948" cy="140" r="5" fill="#142033" fill-opacity="0.1"/>
+  <line x1="640" y1="288" x2="984" y2="288" stroke="#142033" stroke-opacity="0.07" stroke-width="2" stroke-linecap="round"/>
+  <line x1="700" y1="308" x2="924" y2="308" stroke="#e2c27a" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round"/>
+</svg>
