@@ -19,6 +19,7 @@
             moss: "#2f6b52",
             brass: "#7a5c26",
             gilt: "#e2c27a",
+            slate: "#3a4149",
             cream: "#f4f0e8",
             paper: "#fbf8f3",
             line: "#e4ddd1"
@@ -51,31 +52,27 @@
 <body class="bg-cream font-sans text-ink antialiased">
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-paper focus:px-4 focus:py-2 focus:shadow">Skip to content</a>
 
-  <header class="sticky top-0 z-40 border-b border-line/80 bg-cream/90 backdrop-blur">
-    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
-      <a href="#top" class="flex items-center gap-3">
-        <span class="grid h-10 w-10 place-items-center rounded-full bg-pine text-sm font-semibold tracking-wide text-cream">JKJ</span>
-        <span class="leading-tight">
-          <span class="block text-sm font-semibold tracking-wide">JKJ Tax</span>
-          <span class="block text-xs text-ink/60">Business Services</span>
-        </span>
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-slate text-cream">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 sm:px-8">
+      <a href="#top" class="flex min-w-0 items-center">
+        <img src="logo/jkj-header.png" alt="JKJ Tax &amp; Business Services" class="h-[42px] w-auto max-w-[62vw] object-contain object-left sm:h-[52px] sm:max-w-[340px] lg:h-14">
       </a>
 
       <nav class="hidden items-center gap-6 text-sm font-medium lg:flex" aria-label="Primary">
-        <a href="#services" class="hover:text-pine">Services</a>
-        <a href="#about" class="hover:text-pine">About</a>
-        <a href="#upload" class="hover:text-pine">Upload</a>
-        <a href="#schedule" class="hover:text-pine">Schedule</a>
-        <a href="#contact" class="hover:text-pine">Contact</a>
-        <a href="#schedule" class="rounded-full bg-pine px-4 py-2 text-cream hover:bg-moss">Book a time</a>
+        <a href="#services" class="text-cream/90 hover:text-gilt">Services</a>
+        <a href="#about" class="text-cream/90 hover:text-gilt">About</a>
+        <a href="#upload" class="text-cream/90 hover:text-gilt">Upload</a>
+        <a href="#schedule" class="text-cream/90 hover:text-gilt">Schedule</a>
+        <a href="#contact" class="text-cream/90 hover:text-gilt">Contact</a>
+        <a href="#schedule" class="rounded-full bg-gilt px-4 py-2 font-semibold text-ink hover:bg-cream">Book a time</a>
       </nav>
 
-      <button id="menu-toggle" type="button" class="inline-flex items-center justify-center rounded-md border border-line px-3 py-2 text-sm lg:hidden" aria-expanded="false" aria-controls="mobile-menu">
+      <button id="menu-toggle" type="button" class="inline-flex items-center justify-center rounded-md border border-white/25 px-3 py-2 text-sm text-cream hover:border-gilt hover:text-gilt lg:hidden" aria-expanded="false" aria-controls="mobile-menu">
         Menu
       </button>
     </div>
-    <nav id="mobile-menu" class="hidden border-t border-line px-5 py-4 lg:hidden" aria-label="Mobile">
-      <div class="flex flex-col gap-3 text-sm font-medium">
+    <nav id="mobile-menu" class="hidden border-t border-white/10 px-5 py-4 lg:hidden" aria-label="Mobile">
+      <div class="flex flex-col gap-3 text-sm font-medium text-cream/90">
         <a href="#services" class="menu-link">Services</a>
         <a href="#about" class="menu-link">About</a>
         <a href="#upload" class="menu-link">Upload</a>
@@ -87,43 +84,43 @@
 
   <main id="main">
     <section id="top" class="relative overflow-hidden">
-      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[1.15fr_0.85fr] lg:py-28">
+      <div class="mx-auto grid max-w-6xl items-center gap-16 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14 lg:py-36">
         <div>
-          <p class="mb-5 text-xs font-semibold uppercase tracking-[0.22em] text-brass">Tax · Books · Advice</p>
-          <h1 class="font-serif text-4xl leading-[1.12] text-ink sm:text-5xl lg:text-6xl">
+          <p class="mb-6 text-xs font-semibold uppercase tracking-[0.26em] text-brass">Tax · Books · Advice</p>
+          <h1 class="text-balance font-serif text-4xl/[1.15] text-ink sm:text-5xl/[1.12] lg:text-6xl/[1.1]">
             Taxes and books, handled with care.
           </h1>
-          <p class="mt-6 max-w-xl text-lg leading-relaxed text-ink/75">
+          <p class="mt-6 max-w-xl text-lg/[1.7] text-ink/75">
             JKJ Tax &amp; Business Services helps individuals and small businesses prepare returns, keep clean records, and make the next decision with numbers they can actually read.
           </p>
-          <div class="mt-8 flex flex-wrap gap-3">
-            <a href="#contact" class="rounded-full bg-pine px-6 py-3 text-sm font-semibold text-cream hover:bg-moss">Start a conversation</a>
-            <a href="#services" class="rounded-full border border-ink/15 bg-paper px-6 py-3 text-sm font-semibold hover:border-pine hover:text-pine">See services</a>
+          <div class="mt-11 flex flex-wrap gap-x-4 gap-y-4">
+            <a href="#contact" class="rounded-full bg-pine px-6 py-3 text-center text-sm font-semibold text-cream shadow-sm transition duration-200 ease-out hover:-translate-y-0.5 hover:bg-moss hover:shadow-lg hover:shadow-pine/25 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine active:translate-y-0 motion-reduce:transition-none motion-reduce:hover:translate-y-0">Start a conversation</a>
+            <a href="#services" class="rounded-full border border-ink/15 bg-paper px-6 py-3 text-center text-sm font-semibold shadow-sm transition duration-200 ease-out hover:-translate-y-0.5 hover:border-pine hover:text-pine hover:shadow-lg hover:shadow-ink/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine active:translate-y-0 motion-reduce:transition-none motion-reduce:hover:translate-y-0">See services</a>
           </div>
         </div>
 
-        <aside class="rounded-3xl bg-ink p-7 text-cream shadow-card sm:p-9" aria-label="How an engagement starts">
-          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-gilt">A typical start</p>
-          <ol class="mt-6 space-y-5">
-            <li class="flex gap-4">
-              <span class="font-serif text-2xl text-gilt">01</span>
-              <span>
-                <span class="block font-medium">Tell us where things stand</span>
-                <span class="mt-1 block text-sm text-cream/70">Returns, books, or a question you have been putting off.</span>
+        <aside class="rounded-3xl bg-ink p-7 text-cream shadow-card sm:p-10" aria-label="How an engagement starts">
+          <p class="text-xs font-semibold uppercase tracking-[0.26em] text-gilt">A typical start</p>
+          <ol class="mt-8 divide-y divide-white/10">
+            <li class="flex gap-5 pb-7">
+              <span class="w-9 shrink-0 font-serif text-3xl leading-none text-gilt">01</span>
+              <span class="block">
+                <span class="block text-base font-semibold text-white">Tell us where things stand</span>
+                <span class="mt-1.5 block text-sm leading-relaxed text-cream/80">Returns, books, or a question you have been putting off.</span>
               </span>
             </li>
-            <li class="flex gap-4">
-              <span class="font-serif text-2xl text-gilt">02</span>
-              <span>
-                <span class="block font-medium">We sort the paperwork</span>
-                <span class="mt-1 block text-sm text-cream/70">A clear list of what we need, and what can wait.</span>
+            <li class="flex gap-5 py-7">
+              <span class="w-9 shrink-0 font-serif text-3xl leading-none text-gilt">02</span>
+              <span class="block">
+                <span class="block text-base font-semibold text-white">We sort the paperwork</span>
+                <span class="mt-1.5 block text-sm leading-relaxed text-cream/80">A clear list of what we need, and what can wait.</span>
               </span>
             </li>
-            <li class="flex gap-4">
-              <span class="font-serif text-2xl text-gilt">03</span>
-              <span>
-                <span class="block font-medium">You leave with a plan</span>
-                <span class="mt-1 block text-sm text-cream/70">Filed work, current books, or advice you can act on.</span>
+            <li class="flex gap-5 pt-7">
+              <span class="w-9 shrink-0 font-serif text-3xl leading-none text-gilt">03</span>
+              <span class="block">
+                <span class="block text-base font-semibold text-white">Clear options &amp; next steps</span>
+                <span class="mt-1.5 block text-sm leading-relaxed text-cream/80">We walk you through the numbers in plain English so you can make confident business decisions.</span>
               </span>
             </li>
           </ol>
